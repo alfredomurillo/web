@@ -1,0 +1,114 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title> MULTIMEDIA </title>
+    <meta name="author" content="Alfredo murillo">
+    <meta name="description" content="Proteinhouse">
+    <link rel="icon" type="image/icon" href="../favicon.ico">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/estilosLocalizar.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+<div class="botonInicio">
+    <ul class="lists">
+        <li><a href="index.html" class="active">Inicio</a></li>
+    </ul>
+</div>
+
+</section>
+
+<div class="contenedor">
+
+<img src="img/ProteinHouse-Franchise-Exterior-Franchise-Know-How%20(1).jpg">
+
+<div class="mapa">
+    <h2>nos encontramos aqui</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12139.657386087138!2d-3.7179277086225135!3d40.47715989187765!2m
+    3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229993dead6e5%3A0x122d022bed2d708a!2sEl%20Pilar%2C%20Madrid!5e0!3m2!1ses!2ses!4v1605555290867!5m2!1ses!2ses"
+        width="800" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<p> calle mondariz n13 , barrio del pilar, Madrid</p>
+</div>
+</div>
+</section>
+
+<section id="blog">
+    <div class="contenedor">
+        <article>
+            <img src="img/asdasd1.jpg">
+            <h4>Leganes n4 bajo a</h4>
+            <h4>Mon-Sat 7am-9pm</h4>
+            <h4> Sun 9am-7pm</h4>
+        </article>
+        <article>
+            <img src="img/asdasd2.jpg" >
+            <h4>Alcobendas n12</h4>
+            <h4>Mon-Sat 7am-9pm</h4>
+            <h4> Sun 9am-7pm</h4>
+        </article>
+        <article>
+            <img src="img/tienda12.jpg"  >
+            <h4>Vallecas bajo c</h4>
+            <h4>Mon-Sat 7am-9pm</h4>
+            <h4> Sun 9am-7pm</h4>
+        </article>
+        <article>
+            <img src="img/proteinhousekc-location%20(1).jpg" >
+            <h4>La Ventilla sin numero</h4>
+            <h4>Mon-Sat 7am-9pm</h4>
+            <h4> Sun 9am-7pm</h4>
+        </article>
+        <article>
+            <img src="img/proteinhouse-mc-allen-location.jpg" >
+            <h4>Barrio del Pilar</h4>
+            <h4>Mon-Sat 7am-9pm</h4>
+            <h4> Sun 9am-7pm</h4>
+        </article>
+    </div>
+</section>
+
+</section>
+<footer>
+    <div class="contenedor">
+        <p class="copy">proteinhouse &copy; 2020</p>
+        <div class="sociales">
+            <a class="icon-facebook-official" href="#"></a>
+            <a class="icon-instagram" href="#"></a>
+        </div>
+    </div>
+</footer>
+
+
+* Efectos con JQuery */
+$(document).ready(function() {
+var ocultar = $("#ocultar");
+var mostrar = $("#mostrar");
+var toggle = $("#toggle");
+var elemento = $("#elemento");
+
+ocultar.click(function() {
+elemento.fadeIn(1000);
+});
+
+mostrar.click(function() {
+elemento.fadeOut(1000);
+});
+
+toggle.click(function() {
+elemento.fadeTo(1000);
+});
+});
+
+$(document).ready(function() {
+$('#example').DataTable();
+} );
+
+
+</body>
+</html>

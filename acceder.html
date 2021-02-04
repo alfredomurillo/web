@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title> MULTIMEDIA </title>
+    <meta name="author" content="Alfredo murillo">
+    <meta name="description" content="pagina de acceso">
+    <link rel="icon" type="image/icon" href="../favicon.ico">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilosAcceder.css">
+    <script src="js/formularioAcceder.js"></script>
+
+</head>
+
+<body>
+
+<div class="botonInicio">
+    <h1>Acceso socios</h1>
+    <ul class="lists">
+        <li><a href="index.html" class="active">Inicio</a></li>
+    </ul>
+</div>
+
+
+
+
+<section class="tabla-registro">
+
+    <div class="socios">
+    <h3>Acceso socios</h3>
+    </div>
+    <form name="form" action="#" method="POST" onsubmit="return validar();">
+    <input class="controles" type="text" name="usuario" id="usuario" placeholder="id usuario">
+    <input class="controles" type="password" name="pass" id="pass" placeholder="ingrese su contraseña">
+
+
+    <input class="botones" type="button" onclick="validar()" value="verificar">
+    </form>
+
+
+</section>
+
+    <section id="blog">
+        <div class="contenedor">
+            <article><img src="img/tor1.jpg"></article>
+            <article><img src="img/tor5.jpg"></article>
+            <article><img src="img/tor3.jpg"></article>
+            <article><img src="img/tor4.jpg"></article>
+            <article><img src="img/tor2.jpg"></article>
+        </div>
+    </section>
+<footer>
+    <div class="contenedor">
+        <p class="copy">proteinhouse &copy; 2020</p>
+        <div class="sociales">
+            <a class="icon-facebook-official" href="#"></a>
+            <a class="icon-instagram" href="#"></a>
+        </div>
+    </div>
+</footer>
+
+
+<!--
+<section class="tabla-registro">
+    <table>
+        <center>
+            <tr>
+                <td><label>Usuario</label></td> <td><input type="text" name="usuario" id="usuario"> </td>
+            </tr>
+            <tr>
+                <td><label>Contraseña: </label></td> <td><input type="password" name="pass" id="pass"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" name="btnVerifica" id="btnVerifica" onclick="validar()" value="verificar" style="width: 100%"></td>
+            </tr>
+        </center>
+
+    </table>
+</section>
+
+-->
+
+
+</body>
+</html>

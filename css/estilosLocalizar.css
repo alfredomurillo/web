@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #aaaaaa;
+}
+
+body{
+    font-family: 'Open Sans' , sans-serif;
+}
+
+.botonInicio{
+    text-align: center;
+    font-family: Impact;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.botonInicio a{
+    font-size: 70px;
+    font-style: oblique;
+    font-family: "Leelawadee UI";
+    color: #1d4b8f;
+
+
+}
+
+.botonInicio  li a{
+    font-size: 30px;
+    color:  #000000;
+
+}
+
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+    margin-top: 30px;
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#blog .contenedor{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog article{
+    margin: 15px;
+
+}
+#blog img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 15px;
+
+}
+.contenedor ,copy{
+    text-align: center;
+}
+.contenedor p ,h2{
+    margin-top: 10px;
+    font-family: Impact;
+    font-size: 20px;
+
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+

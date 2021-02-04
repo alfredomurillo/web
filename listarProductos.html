@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1">
+    <meta name="author" content="Alfredo Murillo Rives">
+    <meta name="generator" content="phpStorm">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name = "title" content="ListarProductos">
+    <meta http-equiv="refresh" content="30">
+    <meta name="robots" content="index, follow">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="css/listarProductos.css">
+</head>
+<body>
+
+<div class="botonInicio">
+    <h1>Listar productos</h1>
+    <ul class="lists">
+        <li><a href="index.html" class="active">Inicio</a></li>
+    </ul>
+</div>
+
+<div class="contendor">
+    <section class="tabla-registro">
+
+         <h1>Lista de productos</h1>
+
+                    <table border=1>
+                        <tr>
+                            <th>Id</th><th>Nombre</th><th>Precio</th><th>Unidades</th><th>Foto</th>
+                        </tr>
+
+                        <%
+                        ArrayList<Producto> lista = new ArrayList<Producto>();
+
+                        lista = DAOproductos.getInstance().dao_listarProductos();
+
+                        for (Producto p : lista) {
+
+                        %>
+
+                        <tr>
+                            <td><%=p.getId() %></td>
+                            <td><%=p.getNombre() %></td>
+                            <td><%=p.getPrecio() %></td>
+                            <td><%=p.getUnidades() %></td>
+                            <td></td>
+                            <td><a herf="Sv_productos?opcion=3&id=<%=p.getId() %>">Ver</a></td>
+                            <td><a herf="Sv_productos?opcion=1&id=<%=p.getId() %>">Editar</a></td>
+                            <td><a herf="Sv_productos?opcion=2&id=<%=p.getId() %>">Borrar</a></td>
+
+                        </tr>
+
+                        <%
+                        }
+
+                        %>
+
+                    </table>
+     </section>
+</div>
+</body>
+</html>

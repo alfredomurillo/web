@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1">
+    <meta name="author" content="Alfredo Murillo Rives">
+    <meta name="generator" content="phpStorm">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name = "title" content="ListasClientes">
+    <meta http-equiv="refresh" content="30">
+    <meta name="robots" content="index, follow">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="css/listarCliente.css">
+</head>
+<body>
+
+<div class="botonInicio">
+    <h1>Listado de clientes</h1>
+    <ul class="lists">
+        <li><a href="index.html" class="active">Inicio</a></li>
+    </ul>
+</div>
+
+<div class="contenedor">
+    <section class="tabla-registro">
+        <list  class="titulillo">
+         <h1>listado de clientes</h1>
+        </list>
+
+        <div class="resultados">
+                    <table border=1>
+                        <tr>
+                            <th>Id</th><th>Nombre</th><th>Apellidos</th><th>Dni</th><th>Pass</th><th>Foto</th>
+                        </tr>
+
+                        <%
+                        ArrayList<Cliente> lista = new ArrayList<Cliente>();
+
+                        lista = DAOclientes.getInstance().dao_listarClientes();
+
+                        for (Cliente p : lista) {
+
+                        %>
+
+                        <tr>
+                            <td><%=p.getId() %></td>
+                            <td><%=p.getNombre() %></td>
+                            <td><%=p.getApellidos() %></td>
+                            <td><%=p.getDni() %></td>
+                             <td><%=p.getPass() %></td>
+                            <td></td>
+                            <td><a herf="Sv_clientes?opcion=3&id=<%=p.getId() %>">Ver</a></td>
+                            <td><a herf="Sv_clientes?opcion=1&id=<%=p.getId() %>">Editar</a></td>
+                            <td><a herf="Sv_clientes?opcion=2&id=<%=p.getId() %>">Borrar</a></td>
+
+                        </tr>
+
+                        <%
+                        }
+
+                        %>
+
+                    </table>
+                </div>
+    </section>
+</div>
+</body>
+</html>

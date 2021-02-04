@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1">
+    <meta name="author" content="Alfredo Murillo Rives">
+    <meta name="generator" content="phpStorm">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name = "title" content="gestionProductos">
+    <meta http-equiv="refresh" content="30">
+    <meta name="robots" content="index, follow">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="css/gestionProductos.css">
+</head>
+<body>
+
+<div class="botonInicio">
+    <h1>gestion Productos</h1>
+    <ul class="lists">
+        <li><a href="index.html" class="active">Inicio</a></li>
+    </ul>
+</div>
+
+
+<section class="tabla-registro">
+         <form name="altaproductos" action="Sv_productos" method="POST">
+             <input class="controles" type="text" name="nombres"  placeholder="nombre producto">
+             <input class="controles" type="number" name="correo"  placeholder="precio">
+             <input class="controles" type="number" name="contraseña" placeholder="unidades">
+             <input class="controles" type="file" name="foto">
+             <input class="botones" type="submit" value="enviar">
+        </form>
+</section>
+
+</body>
+</html>

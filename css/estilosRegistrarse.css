@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #aaaaaa;
+}
+
+.botonInicio{
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.botonInicio a{
+    color: #000000;
+
+}
+.botonInicio h1{
+    margin-bottom: 30px;
+    font-style: oblique;
+    font-family: "Leelawadee UI";
+    color: #1d4b8f;
+}
+
+.tabla-registro{
+    width: 350px;
+    background: #2a5d84;
+    padding: 30px;
+    margin: auto;
+    margin-bottom:20px ;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 25px;
+
+}
+.condicionesForm{
+    color: #edfbff;
+    text-align: center;
+    background-color: #aaaaaa;
+    font-family: Charcoal;
+    height: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.tabla-registro h3{
+    text-align: center;
+    background-color: #2a5d84;
+}
+.tabla-registro form{
+    background-color: #2a5d84;
+}
+
+.controles{
+
+    width: 100%;
+    background: #edfbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #00bf00;
+    font-family: 'calibri';
+    font-size: 18px;
+
+}
+.condiciones{
+    text-align: center;
+    background-color: #2a5d84;
+}
+
+
+.tabla-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    background-color: #2a5d84;
+}
+.tabla-registro a{
+    background-color: #2a5d84;
+}
+
+.tabla-registro a:hover{
+    color: #000000;
+    text-decoration: underline;
+
+}
+
+.tabla-registro .botones{
+    width: 100%;
+    background: #00bf00;
+    border: none;
+    padding: 12px;
+    color: #dadada;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+#fotosacceso{
+    margin-top: 40px;
+
+}
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy{
+    font-size: 20px;
+}
+sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a{
+    color: #000000;
+    text-decoration: none;
+}
+#info{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-suples{
+    margin: 20px;
+}
+
+.info-suples img {
+    width: 180px;
+    height: 180px;
+    border-radius: 20%;
+
+
+
+}
+#blog h3, h4{
+    text-align: center;
+}
+
+#blog .contenedor{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog article{
+    margin: 15px;
+
+}
+#blog img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 20%;
+    border: 7px solid #aaaaaa;
+
+
+}
+.contenedor ,copy{
+    text-align: center;
+}

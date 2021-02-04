@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#aaaaaa;
+
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.socios h3{
+    text-align: center;
+    background-color: #2a5d84;
+}
+
+.botonInicio{
+    text-align: center;
+}
+.botonInicio h1{
+    font-size: 70px;
+    font-style: oblique;
+    font-family: "Leelawadee UI";
+    color: #1d4b8f;
+
+
+}
+
+.botonInicio  li a{
+    font-size: 30px;
+     color:  #000000;
+
+}
+
+
+.tabla-registro{
+
+    width: 400px;
+    background: #2a5d84;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 5%;
+
+}
+.tabla-registro form{
+    background: #2a5d84;
+}
+
+
+.tabla-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controles{
+
+    width: 100%;
+    background: #edfbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #00bf00;
+    font-family: 'calibri';
+    font-size: 18px;
+
+}
+
+.tabla-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+
+}
+
+.tabla-registro a{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+
+}
+
+.tabla-registro a:hover{
+    color: #edfbff;
+    text-decoration: underline;
+
+}
+
+.tabla-registro .botones{
+
+    width: 100%;
+    background: #00bf00;
+    border: none;
+    padding: 12px;
+    color: #dadada;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+#blog h3, h4{
+    text-align: center;
+}
+
+#blog .contenedor{
+     display:flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+#blog article{
+    margin: 15px;
+
+}
+#blog img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 20%;
+    border: 7px solid #aaaaaa;
+}
+.contenedor ,copy{
+    text-align: center;
+}
+
